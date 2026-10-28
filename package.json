@@ -19,6 +19,9 @@
   ],
   "author": "Barbara Moda Inteligente",
   "license": "ISC",
+  "engines": {
+    "node": ">=22.5.0"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "clsx": "^2.1.1",

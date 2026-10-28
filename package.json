@@ -1,0 +1,43 @@
+{
+  "name": "barbara-moda-inteligente",
+  "version": "1.0.0",
+  "description": "Loja virtual completa Barbara Moda Inteligente",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "dev:client": "vite",
+    "dev:server": "node server/index.js",
+    "db:reset-zero": "node server/resetToZero.js",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "ecommerce",
+    "moda-feminina",
+    "barbara-moda-inteligente"
+  ],
+  "author": "Barbara Moda Inteligente",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "clsx": "^2.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.469.0",
+    "multer": "^1.4.5-lts.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.6.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.7"
+  }
+}
